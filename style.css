@@ -6,13 +6,14 @@ body, h1, h2, p, ul, li {
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #cac9c9;
+    background-color: #e6e4e4;
 }
 
 
 .cabecalho {
-    background-color: #000000;
-    color: rgb(161, 86, 86);
+    background-color:#000035;
+    background-image: linear-gradient(to right, red, blue);
+    color: rgb(0, 0, 0);
     padding: 20px 0;
     
 }
@@ -29,7 +30,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #893794;
+    color: #9EA1CA;
     font-weight: bold;
 }
 
@@ -37,7 +38,8 @@ nav a {
     text-align: center;
     padding: 100px 0;
     height: 350px;
-    color: #893794;
+    color: #1c4c96;
+  
 }
 
  }
@@ -69,8 +71,8 @@ nav a {
 .contact {
     text-align: center;
     padding: 20px 0;
-    background-color: #000000;
-    color: #893794;
+    background-color: #000035;
+    color: #9EA1CA;
 }
 
 .contact  {
@@ -78,20 +80,12 @@ nav a {
     font-size: 25px;
     margin-top: 100px;
     margin-bottom: 10px;
-    padding:10px ;
-  
-}
+    padding:10px ;}
 
-}
-}
 
 .footer {
-    text-align: center;
+ text-align: center;
     background-color: rgb(194, 116, 116);
     color: #fff;
-    padding:10px;
+    padding:10px;}
     
- 
-    
-}
-
