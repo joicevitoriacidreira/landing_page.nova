@@ -13,9 +13,16 @@ body {
 .cabecalho {
     background-color:#000035;
     background-image: linear-gradient(to right, red, blue);
-    color: rgb(0, 0, 0);
-    padding: 20px 0;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
     
+}
+
+.logo{
+ height: 60px;
+ width: 60px;
+ margin-right: 350px;
 }
 
 nav ul {
@@ -25,7 +32,8 @@ nav ul {
 
 nav li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 27px;
+      
 }
 
 nav a {
@@ -36,17 +44,13 @@ nav a {
 
 .hero {
     text-align: center;
-    padding: 100px 0;
+    padding: 100px;
     height: 350px;
     color: #1c4c96;
+    margin-top: 150px;
+    font-size: 25px;
+    margin-bottom: px;
   
-}
-
- }
-   
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
 }
 
 .cta-button {
@@ -55,8 +59,7 @@ nav a {
     background-color: rgb(223, 0, 0);
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .features {
@@ -70,22 +73,21 @@ nav a {
 
 .contact {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
     background-color: #000035;
     color: #9EA1CA;
 }
 
 .contact  {
  
-    font-size: 25px;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    padding:10px ;}
+   font-size: 20px;
+   margin-top: 10px;
+   padding:10px ;}
 
 
-.footer {
- text-align: center;
-    background-color: rgb(194, 116, 116);
+.copy {
+    text-align: center;
+    background-color:#000035;
     color: #fff;
-    padding:10px;}
-    
+    padding:10px; }
+     
